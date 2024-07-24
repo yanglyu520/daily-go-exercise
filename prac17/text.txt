@@ -1,0 +1,73 @@
+TEXT main.main(SB) /Users/yuanjing/GolandProjects/daily-go-exercise/prac17/main.go
+  main.go:13		0x10008cb80		f9400b90		MOVD 16(R28), R16			
+  main.go:13		0x10008cb84		eb3063ff		CMP R16, RSP				
+  main.go:13		0x10008cb88		54000829		BLS 65(PC)				
+  main.go:13		0x10008cb8c		f8180ffe		MOVD.W R30, -128(RSP)			
+  main.go:13		0x10008cb90		f81f83fd		MOVD R29, -8(RSP)			
+  main.go:13		0x10008cb94		d10023fd		SUB $8, RSP, R29			
+  main.go:14		0x10008cb98		d503201f		NOOP					
+  main.go:6		0x10008cb9c		b27f03e1		ORR $2, ZR, R1				
+  main.go:6		0x10008cba0		f90023e1		MOVD R1, 64(RSP)			
+  main.go:15		0x10008cba4		d503201f		NOOP					
+  main.go:6		0x10008cba8		f9001fe1		MOVD R1, 56(RSP)			
+  main.go:8		0x10008cbac		f94023e1		MOVD 64(RSP), R1			
+  main.go:8		0x10008cbb0		91000420		ADD $1, R1, R0				
+  main.go:8		0x10008cbb4		f90023e0		MOVD R0, 64(RSP)			
+  main.go:17		0x10008cbb8		a906ffff		STP (ZR, ZR), 104(RSP)			
+  main.go:17		0x10008cbbc		97fdf2d9		CALL runtime.convT64(SB)		
+  main.go:17		0x10008cbc0		f0000141		ADRP 176128(PC), R1			
+  main.go:17		0x10008cbc4		91340021		ADD $3328, R1, R1			
+  main.go:17		0x10008cbc8		f90037e1		MOVD R1, 104(RSP)			
+  main.go:17		0x10008cbcc		f9003be0		MOVD R0, 112(RSP)			
+  print.go:314		0x10008cbd0		b00005bb		ADRP 741376(PC), R27			
+  print.go:314		0x10008cbd4		f9437762		MOVD 1768(R27), R2			
+  print.go:314		0x10008cbd8		90000200		ADRP 262144(PC), R0			
+  print.go:314		0x10008cbdc		9112e000		ADD $1208, R0, R0			
+  print.go:314		0x10008cbe0		b24003e3		ORR $1, ZR, R3				
+  print.go:314		0x10008cbe4		aa0303e4		MOVD R3, R4				
+  print.go:314		0x10008cbe8		aa0203e1		MOVD R2, R1				
+  print.go:314		0x10008cbec		9101a3e2		ADD $104, RSP, R2			
+  print.go:314		0x10008cbf0		97ffeca0		CALL fmt.Fprintln(SB)			
+  main.go:8		0x10008cbf4		f94023e1		MOVD 64(RSP), R1			
+  main.go:8		0x10008cbf8		91000420		ADD $1, R1, R0				
+  main.go:8		0x10008cbfc		f90023e0		MOVD R0, 64(RSP)			
+  main.go:18		0x10008cc00		a905ffff		STP (ZR, ZR), 88(RSP)			
+  main.go:18		0x10008cc04		97fdf2c7		CALL runtime.convT64(SB)		
+  main.go:18		0x10008cc08		f0000141		ADRP 176128(PC), R1			
+  main.go:18		0x10008cc0c		91340021		ADD $3328, R1, R1			
+  main.go:18		0x10008cc10		f9002fe1		MOVD R1, 88(RSP)			
+  main.go:18		0x10008cc14		f90033e0		MOVD R0, 96(RSP)			
+  print.go:314		0x10008cc18		b00005bb		ADRP 741376(PC), R27			
+  print.go:314		0x10008cc1c		f9437762		MOVD 1768(R27), R2			
+  print.go:314		0x10008cc20		90000200		ADRP 262144(PC), R0			
+  print.go:314		0x10008cc24		9112e000		ADD $1208, R0, R0			
+  print.go:314		0x10008cc28		b24003e3		ORR $1, ZR, R3				
+  print.go:314		0x10008cc2c		aa0303e4		MOVD R3, R4				
+  print.go:314		0x10008cc30		aa0203e1		MOVD R2, R1				
+  print.go:314		0x10008cc34		910163e2		ADD $88, RSP, R2			
+  print.go:314		0x10008cc38		97ffec8e		CALL fmt.Fprintln(SB)			
+  main.go:8		0x10008cc3c		f9401fe1		MOVD 56(RSP), R1			
+  main.go:8		0x10008cc40		91000420		ADD $1, R1, R0				
+  main.go:8		0x10008cc44		f9001fe0		MOVD R0, 56(RSP)			
+  main.go:19		0x10008cc48		a904ffff		STP (ZR, ZR), 72(RSP)			
+  main.go:19		0x10008cc4c		97fdf2b5		CALL runtime.convT64(SB)		
+  main.go:19		0x10008cc50		f0000141		ADRP 176128(PC), R1			
+  main.go:19		0x10008cc54		91340021		ADD $3328, R1, R1			
+  main.go:19		0x10008cc58		f90027e1		MOVD R1, 72(RSP)			
+  main.go:19		0x10008cc5c		f9002be0		MOVD R0, 80(RSP)			
+  print.go:314		0x10008cc60		b00005bb		ADRP 741376(PC), R27			
+  print.go:314		0x10008cc64		f9437761		MOVD 1768(R27), R1			
+  print.go:314		0x10008cc68		90000200		ADRP 262144(PC), R0			
+  print.go:314		0x10008cc6c		9112e000		ADD $1208, R0, R0			
+  print.go:314		0x10008cc70		910123e2		ADD $72, RSP, R2			
+  print.go:314		0x10008cc74		b24003e3		ORR $1, ZR, R3				
+  print.go:314		0x10008cc78		aa0303e4		MOVD R3, R4				
+  print.go:314		0x10008cc7c		97ffec7d		CALL fmt.Fprintln(SB)			
+  main.go:20		0x10008cc80		a97ffbfd		LDP -8(RSP), (R29, R30)			
+  main.go:20		0x10008cc84		910203ff		ADD $128, RSP, RSP			
+  main.go:20		0x10008cc88		d65f03c0		RET					
+  main.go:13		0x10008cc8c		aa1e03e3		MOVD R30, R3				
+  main.go:13		0x10008cc90		97ff5250		CALL runtime.morestack_noctxt.abi0(SB)	
+  main.go:13		0x10008cc94		17ffffbb		JMP main.main(SB)			
+  main.go:13		0x10008cc98		00000000		?					
+  main.go:13		0x10008cc9c		00000000		?					
